@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>موقعي البسيط</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>أهلاً بك في موقعي</h1>
+      <nav>
+        <a href="#about">عنّي</a>
+        <a href="#work">أعمالي</a>
+        <a href="#contact">اتصل بي</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>عنّي</h2>
+      <p>هذا نص تجريبي يشرح من أنت وما تقدم.</p>
+    </section>
+
+    <section id="work" class="card">
+      <h2>أعمالي</h2>
+      <ul>
+        <li>مشروع 1 — وصف قصير</li>
+        <li>مشروع 2 — وصف قصير</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>اتصل بي</h2>
+      <p>البريد: example@email.com</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© كل الحقوق محفوظة</div>
+  </footer>
+</body>
+</html>
